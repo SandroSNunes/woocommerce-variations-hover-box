@@ -1,0 +1,21 @@
+{
+    "name": "sandro-nunes/woocommerce-variations-hover-box",
+    "description": "WooCommerce Variations Hover Box",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Sandro Nunes",
+            "email": "info@sandronunes.com",
+			"homepage": "https://sandronunes.com"
+        }
+    ],
+    "require": {
+		"level-2/dice": "2.0.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Sandro_Nunes\\WooCommerce_Variations_Hover_Box\\" : "src",
+            "Sandro_Nunes\\Lib\\": "lib"
+		}
+	}
+}
